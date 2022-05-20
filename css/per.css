@@ -1,0 +1,74 @@
+
+body { 
+background-image: url("fondo/fondo.jpg") ; 
+  background-position: center center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  background-size: cover;
+  
+  backdrop-filter: blur(6px);
+ }
+
+
+ H1  { 
+	
+	Font-Family: "Arial";
+	color: white;
+	width: 99%;
+	background:#8d9abe;
+	
+	; 
+	border: 4px line #015f15;
+	bottom: 0px;
+}
+
+*{
+	padding: 0px;
+margin: 0px
+}
+
+#header {
+	margin:auto;
+	width: 45%;
+	font-family: "Arial";
+}
+	
+ul, il {
+	list-style: none;
+	color: white;
+}
+
+.menu li a{
+	background-color: 5FBDB0;
+	padding: 10px 15px;
+	text-decoration: none;
+	color:black;
+	display:block;
+}
+
+.menu li:hover > ul{
+	display:block;
+}	
+	
+.menu > li {
+	float:left;
+}
+ 
+#bienvenida {
+	background:daeffa;
+	Font-Family: "Arial";
+	width:60%;
+	margin: 20px 60px;
+}
+
+ p {
+	font-family: "Arial";
+	margin: 50px 40px;
+	color: 000000 ;
+	 background-color: #85e4d4;
+}
+
+
